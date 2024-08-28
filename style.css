@@ -1,0 +1,23 @@
+.card-header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.content {
+    margin-bottom: 1.5rem;
+}
+
+/* タイトルのスタイル */
+.title {
+    background-color: rgb(238, 238, 238);
+    /* 黒背景 */
+    padding: 2rem 0;
+    /* 縦の高さを少し広げる */
+    text-align: center;
+    /* 中央揃え */
+    margin: 0;
+    /* デフォルトのマージンをリセット */
+}
+.is-hidden {
+    display: none;
+}

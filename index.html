@@ -1,21 +1,371 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>マッチングアプリWithの攻略ガイド</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-    <main>
-        <p>This is a simple website.</p>
-    </main>
-    <footer>
-        <p>&copy; 2024 My Website</p>
-    </footer>
-    <script src="script.js"></script>
+    <section class="section">
+        <div class="container">
+            <h1 class="card title is-fullwidth">マッチングアプリWithの攻略ガイド</h1>
+
+            <!-- Withの特性 -->
+            <div class="card mt-4">
+                <header class="card-header">
+                    <p class="card-header-title">Withの特性</p>
+                </header>
+                <div class="card-content is-hidden">
+                    <div class="content">
+                        <ul>
+                            <li>心理テストを取り入れている</li>
+                            <li>性格や価値観を重視する人が多い</li>
+                            <li>真面目な20代女性が多い</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Withでの登録時/決済メモ -->
+            <div class="card mt-4">
+                <header class="card-header">
+                    <p class="card-header-title">Withでの登録時/決済メモ</p>
+                </header>
+                <div class="card-content is-hidden">
+                    <div class="content">
+                        <ul>
+                            <li>ブラウザ版で登録すると1ヶ月3600円で購入可能</li>
+                            <li>初の会員登録だVIPオプション込みで3000円で購入可能</li>
+                            <li>Facebookに登録するとFaceBook上の友達はWith上で非表示になる</li>
+                            <li>登録1週間は女性に優先表示されやすい</li>
+                            <li>登録から24時間以内は自分に足跡をつけてくれた人全員に無料でいいねを送ること
+                                <ul>
+                                    <li>登録前にプロフィール写真の準備をしておくこと</li>
+                                    <li>はじめるタイミングは金曜日・土曜日・日曜日に被るようにしよう</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 基本プロフィール -->
+            <div class="card mt-4">
+                <header class="card-header">
+                    <p class="card-header-title">基本プロフィール</p>
+                </header>
+                <div class="card-content is-hidden">
+                    <div class="content">
+                        <ul>
+                            <li>出身地などは市町村まで設定</li>
+                            <li>身長は約3CM高めにする</li>
+                            <li>職業はかっこよく見せる
+                                <div class="notification">事務員→IT系・工場勤務→◯◯の製造</div>
+                            </li>
+                            <li>お酒の項目はときどき飲むか飲む</li>
+                            <li>結婚に対する意思は、いい人がいれば、か2、3年のうち</li>
+                            <li>子供の項目はほしいで設定</li>
+                            <li>家事育児は積極的に参加したい</li>
+                            <li>出会うまでの希望には気が合えば会いたいに設定する（すぐ会いたいはがっつきすぎ）</li>
+                            <li>初回デート費用は男性が全て払うか相談することにする</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 写真 -->
+            <div class="card mt-4">
+                <header class="card-header">
+                    <p class="card-header-title">写真</p>
+                </header>
+                <div class="card-content is-hidden">
+                    <div class="content">
+                        <ul>
+                            <li>メイン写真は上半身が見え、表情がしっかり見える写真（できれば笑顔）</li>
+                            <li>サブ写真は一緒にいると楽しめることを想像させるような写真（写真の雰囲気は被らないよう）
+                                <ul>
+                                    <li>全身の写真</li>
+                                    <li>横向きの写真</li>
+                                    <li>趣味を楽しんでいる写真</li>
+                                    <li>女性ウケがいい写真</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 自己紹介文 -->
+            <div class="card mt-4">
+                <header class="card-header">
+                    <p class="card-header-title">自己紹介文</p>
+                </header>
+                <div class="card-content is-hidden">
+                    <div class="content">
+                        <ul>
+                            <li>多くの女性が興味があるもの
+                                <div class="notification">食べ歩きやカフェ巡り・映画鑑賞・旅行</div>
+                            </li>
+                            <li>あなたの性格についても書く</li>
+                            <li>女性にメリットになることを書く</li>
+                            <li>言っても惹かれない程度のマイナスな部分も書くと信頼されやすい
+                                <div class="notification">一緒にいると癒されるとよく友達に言われます</br>
+                                    人見知りですが、仲良くなったら深い関係になれます。</div>
+                            </li>
+                            <li>アクションを促す文章を書く
+                                <div class="notification">少しでも合いそうだなと思ってくれたらぜひメッセージください！</div>
+                            </li>
+                            <li>真剣になりすぎない程度で仕事の話を書くことで誠実さから相手の警戒心を無くそう</li>
+                            <li>プロフに絵文字や改行を増やして読みやすい文章にしよう</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 女性の探し方 -->
+            <div class="card mt-4">
+                <header class="card-header">
+                    <p class="card-header-title">女性の探し方</p>
+                </header>
+                <div class="card-content is-hidden">
+                    <div class="content">
+                        <ul>
+                            <li>診断イベント
+                                <ul>
+                                    <li>同じ診断結果だと同じ価値観の人なんだと共感を持ってくれるためマッチング率が高まる</li>
+                                    <li>定期的にイベントがあるため出来る限りすべて参加すること</li>
+                                </ul>
+                            </li>
+                            <li>好みカード
+                                <ul>
+                                    <li>好みカードは共通点が多い人ほど優先表示される</li>
+                                    <li>カードを20枚以上登録するとマッチング率が跳ね上がる</li>
+                                    <li>おすすめカード
+                                        <ul>
+                                            <li>特にマッチしやすくなるカード
+                                                <div class="notification">連絡がまめだと嬉しい・
+                                                    親友みたいなカップルが利用</div>
+                                            </li>
+                                            <li>デートに誘いやすいカード
+                                                <div class="notification">カフェ大好き・
+                                                    食べ歩き・
+                                                    お酒を飲みながら・
+                                                    居酒屋デートあり</div>
+                                            </li>
+                                            <li>口説きやすいカード
+                                                <div class="notification">
+                                                    ぎゅうしたいされたい・
+                                                    家でまったりデート</div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>好みカードベストを3枚は女性がよく見ている</li>
+                                    <li>漫画アニメゲーム系が好きのカードは避けた方がいいらしい</li>
+                                    <li>キスが好き、いちゃいちゃしたいなどのカードも避けること</li>
+                                </ul>
+                            </li>
+                            <li>探すページから探す方法
+                                <ul>
+                                    <li>検索条件最終ログインが24時間以内の女性を狙うこと</li>
+                                    <li>今週入会のマークがついててライバルが少ない人は狙い目</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- いいねを送る -->
+            <div class="card mt-4">
+                <header class="card-header">
+                    <p class="card-header-title">いいねを送る</p>
+                </header>
+                <div class="card-content is-hidden">
+                    <div class="content">
+                        <ul>
+                            <li>毎月30いいねポイントもらえる</li>
+                            <li>毎日のログインボーナスで1ヶ月で最大53いいねポイントをもらえる</li>
+                            <li>毎日無料いいね5人分できる</li>
+                            <li>診断イベントの結果が同じ女性10人に無料でメッセージ付きいいねを送る</li>
+                            <li>メッセージ付きいいねでの文章はプロフィールに触れた文章かテンプレ文章を準備する</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- いいね数表示 -->
+            <div class="card mt-4">
+                <header class="card-header">
+                    <p class="card-header-title">いいね数表示</p>
+                </header>
+                <div class="card-content is-hidden">
+                    <div class="content">
+                        <ul>
+                            <li>自分側のいいね数表示は直近30日間でいいねをもらった数</li>
+                            <li>女性側のいいね数表示は女性からのいいね数とマッチングした数の合計</li>
+                            <li>男性のいいね平均49いいねなので、49を目標にいいね数を錯覚させて錯覚させることが大事</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 効率的ないいねの稼ぎ方 -->
+            <div class="card mt-4">
+                <header class="card-header">
+                    <p class="card-header-title">効率的ないいねの稼ぎ方</p>
+                </header>
+                <div class="card-content is-hidden">
+                    <div class="content">
+                        <ul>
+                            <li>毎日の15人(診断結果＋毎日の無料いいね枠)の無料いいね分の女性は全員にいいねすること</li>
+                            <li>狙いやすい人にいいねしておくこと
+                                <ul>
+                                    <li>いいねが90以下の女性</li>
+                                    <li>今週入会マークの新規会員</li>
+                                    <li>ログイン日が新しい</li>
+                                    <li>足跡をつけてくれた人</li>
+                                    <li>同じコミュニティ</li>
+                                    <li>同じ好みカード</li>
+                                    <li>診断結果が同じ</li>
+                                    <li>保育士・看護師</li>
+                                    <li>プロフに寂しい、甘えるのが好きと書いてある</li>
+                                </ul>
+                            </li>
+                            <li>足跡を積極的につけていいねを返してくれる人を待つ
+                                <ul>
+                                    <li>※しかし、足跡は1秒に1人以上のペースで足跡をつけないとアカウントをバンされる可能性がある</li>
+                                </ul>
+                            </li>
+                            <li>アピール機能はタイミングを見て利用してみよう（向き不向きがあるかも）
+                                <div>アピール機能：アピール中に足跡をつけてくれた人に対して24時間以内は無料でいいねできる</div>
+                                <ul>
+
+                                    <li>機能を利用するために6ポイント必要なため、6名以上足跡をつけてもらえるように事前に足跡をつけたり、寝る前の時間を見計らったりすることで、効率的にいいねできる
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- メッセージのポイント -->
+            <div class="card mt-4">
+                <header class="card-header">
+                    <p class="card-header-title">メッセージのポイント</p>
+                </header>
+                <div class="card-content is-hidden">
+                    <div class="content">
+                        <ul>
+                            <li>共通点を話題にすること（共通の趣味の話だけになるとつまらない）</li>
+                            <li>しかし、一人一人にプロフィールを確認すると疲れるため、テンプレ化しても問題ない
+                                <div class="notification">はじめまして、〇〇っていいます！</br>
+                                    僕も00好きなので仲良くしてもらえたら嬉しいです！</div>
+                            </li>
+                            <li>褒め方は間接的にすること
+                                <div class="notification">育ち良さそう・愛嬌いいって言われそう</div>
+                            </li>
+
+                            <li>声をほめる</li>
+                            <li>決めつけトーク術を使う
+                                <div class="notification">〇〇ちゃんってO型でしょ・末っ子っぽい</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 損切りのタイミング -->
+            <div class="card mt-4">
+                <header class="card-header">
+                    <p class="card-header-title">損切りのタイミング</p>
+                </header>
+                <div class="card-content is-hidden">
+                    <div class="content">
+                        <ul>
+                            <li>だらだらと話をしてしまうと本命に対する時間が割けないためもったいない</li>
+                            <li>相手の貞操観念で判断して損切りをするとベター</li>
+
+                            <div class="notification">メッセージ数が少ないまま会えそう電話できそう → 貞操観念が低い<br>
+                                メッセージ数が長め → 貞操観念がしっかりしている</div>
+                            <div>約5通目くらいで電話やご飯を誘い始めることで、貞操観念を確認して、<br>損切りするべき相手か判断してみよう</div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 復活の呪文 -->
+            <div class="card mt-4">
+                <header class="card-header">
+                    <p class="card-header-title">復活の呪文</p>
+                </header>
+                <div class="card-content is-hidden">
+                    <div class="content">
+                        <ul>
+                            <li>相手から連絡が返ってこなくなった場合は、</br>
+                                単純に自分の魅力が他の男性に負けてしまったパターンもあるが、</br>
+                                そもそもアプリの通知をオフにしている人やメッセージが来すぎて埋もれている場合があるため、</br>
+                                復活の呪文を送ってもいい</li>
+                            <div class="notification">
+                                お疲れ様です！</br>
+                                正直めっちゃタイプだったので、</br>
+                                お時間あるときに返信いただけたら嬉しいです！</div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 参考資料 -->
+            <div class="card mt-4">
+                <header class="card-header">
+                    <p class="card-header-title">参考資料</p>
+                </header>
+                <div class="card-content is-hidden">
+                    <div class="content">
+                        <ul>
+                            <li>【with攻略】2024年最新版！登録初日にするべきこと、毎日するべきこと、マッチする方法</li>
+                            <ul>
+                                <a href="https://www.youtube.com/watch?v=TxCQrAkEw1c"
+                                    target="_blank">https://www.youtube.com/watch?v=TxCQrAkEw1c</a>
+                            </ul>
+                            <li>【2024年最新】マッチングアプリwith完全攻略（プロフ、メッセージ、デートまでの流れ）</li>
+                            <ul>
+                                <a href="https://www.youtube.com/watch?v=LHCwCdwj6y0"
+                                    target="_blank">https://www.youtube.com/watch?v=LHCwCdwj6y0</a>
+                            </ul>
+                            <li>【With】失敗しないWithの使い方・攻略方法を解説【フツメンでも出会える】</li>
+                            <ul>
+                                <a href="https://www.youtube.com/watch?v=ZdZZ5ZdHoOE"
+                                    target="_blank">https://www.youtube.com/watch?v=ZdZZ5ZdHoOE</a>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
 </body>
+
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const cardHeaders = document.querySelectorAll('.card-header');
+
+        cardHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const content = header.nextElementSibling;
+                content.classList.toggle('is-hidden');
+            });
+        });
+    });
+
+
+</script>
+
 </html>
